@@ -1,0 +1,129 @@
+@charset "utf-8";
+
+html, body {
+    height: 100%; /* 必要な高さを確保するため */
+    margin: 0;
+}
+
+body{
+    font-family: "Hiragino Kaku Gothic ProN", "Yu Gothic", "Meiryo", sans-serif;
+    background-color: #dddddd;
+    margin: 0 auto;
+    max-width: 1000px;
+    padding: 50px 0;
+    align-items: center;     /* 垂直方向の中央揃え */
+    display: flex;
+    flex-direction: column;
+}
+
+.catch {
+    display: inline;
+    flex-direction: column;
+    align-items: flex-start; /* 左揃え */
+    max-width: 60px;
+    color: orange;
+}
+
+.maji{
+    color: red;
+}
+
+.ca{
+    width: fit-content;
+	margin: 0 auto;
+    background-color: #dddddd;
+    max-width: 1000px;
+    padding: 50px auto;
+}
+
+h1{
+    text-align: center;
+    font-size: 48px;
+}
+
+.hako{
+    color: blue;
+}
+
+.catch::before {
+    content: "函 "; /* 追加するコンテンツ */
+    color: blue;    /* コンテンツの色 */
+    font-size: 1.5em; /* フォントサイズの調整 */
+}
+
+.pp{
+    line-height: 0;
+    color: #2f4f4f;
+    font-size: 18px;
+}
+
+.footer{
+    color: #dddddd;
+    background-color: black;
+    padding: 20px;
+    text-align: center;
+    margin-top: 50px; /* フッターの上にスペースを追加 */
+    width: 100%;
+    position: relative;
+    bottom: 0;
+}
+
+.content {
+    flex: 1; /* コンテンツ部分がフッター以外の空間を埋めるようにする */
+}
+
+.suraido{
+    background-color: white;
+    /*display: flex;*/
+    margin: 100px 300px;
+}
+
+.slid{
+    margin: auto;
+    scale: 150%;
+}
+
+.slide-pic{
+    max-width: 100%;
+    height: 400px;
+    margin: auto;
+    
+}
+
+.title{
+    font-size: 20px;
+}
+
+.dai{
+    font-size: 26px;
+}
+
+h3{
+    font-size: 36px;
+}
+
+h2{
+    font-size: 30px;
+}
+
+.annnai{
+    text-align: center;
+}
+
+h4{
+    font-size: 26px;
+}
+
+.SNS {
+    font-size: 30px;
+}
+
+.okuru {
+    text-align: center;
+}
+
+.bosyu{
+    text-align: center;
+    font-size: 40px;
+    color: red;
+}

@@ -1,0 +1,10 @@
+@charset "utf-8";
+
+body{
+    max-width: 850px;
+    margin: 0 20%;
+}
+
+img{
+    margin: 0 40%;
+}
